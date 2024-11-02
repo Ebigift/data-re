@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 90%;
+    position: relative;
+    font-size: 18px; 
+    color: rgb(110, 108, 108);
+}
+
+
+.container{
+    text-align: center;
+    margin: 40px 10px;
+}
+
+ h1, span,h2,p{
+    text-transform: uppercase;
+    }
+
+h2{
+    font-weight: 100;
+    }
+
+.container .form::first-letter{
+    text-transform: capitalize;
+    }
+
+   
+.bts{
+    text-transform: lowercase;
+    font-weight: lighter;
+    }
+
+
+
+table{
+    border-collapse: collapse;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+caption{
+    text-align: end;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+th, td{
+
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+
+.profit-container{
+    margin-bottom: 30px;
+}
+
+.profit{
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 76px;
+}
+
+.benefit{
+    margin-bottom: 10px;
+}
+
+.ft-container{
+    margin-left: 76px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.signatory div{
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.signatory p{
+    text-transform: capitalize;
+}
+
+.signatory span{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.auditor{
+    text-align: center;
+}
+
+.auditor div{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    border: 1px solid gray;
+    margin-bottom: 10px; 
+}
+
+.auditor p{
+    text-transform: capitalize;
+}
+
+.auditor span{
+    text-transform: capitalize;
+}

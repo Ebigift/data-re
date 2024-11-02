@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 90%;
+    position: relative;
+    font-size: 18px; 
+    color: rgb(110, 108, 108);
+}
+
+
+.container{
+    text-align: center;
+    margin: 40px 10px;
+}
+
+ h1, span,h2,p{
+    text-transform: uppercase;
+    }
+
+h2{
+    font-weight: 100;
+    }
+
+.container .form::first-letter{
+    text-transform: capitalize;
+    }
+
+   
+.bts{
+    text-transform: lowercase;
+    font-weight: lighter;
+    }
+
+
+
+table{
+    border-collapse: collapse;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+caption{
+    text-align: end;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+th, td{
+
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+
+.profit-container{
+    margin-bottom: 30px;
+}
+
+.profit{
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 76px;
+}
+
+.benefit{
+    margin-bottom: 10px;
+}
+
+.ft-container{
+    margin-left: 76px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.signatory div{
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.signatory p{
+    text-transform: capitalize;
+}
+
+.signatory span{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.auditor{
+    text-align: center;
+}
+
+.auditor div{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    border: 1px solid gray;
+    margin-bottom: 10px; 
+}
+
+.auditor p{
+    text-transform: capitalize;
+}
+
+.auditor span{
+    text-transform: capitalize;
+}
+
+</style>
+<body>
+    <header>
+       <div class="container">
+         <h1>church of nigeria</h1>
+         <span>(anglican communion)</span>
+         <h2>diocese of northern izon</h2>
+         <span>sabageria archdeaconry</span>
+         <p>st.michael's(anglican) church opokuma north</p>
+         <h3 class="mk">financial report summary <span class="bts">for the period from </span> January to June 2024
+         </h3>
+       </div>
+    </header>
+    <main>
+        <table border="1">
+            <caption>balance b/f #10,000,000</caption>
+            <thead>
+                <tr>
+                    <th>date</th>
+                    <th>description</th>
+                    <th>category</th>
+                    <th>credit</th>
+                    <th>debit</th>
+                    <th>run/bal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr aria-rowspan="6" aria-colspan="6">
+                    <td>mon 12th jan</td>
+                    <td>general collect for this sunday service</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>transportation to yengoa to withdraw money into our accounts.</td>
+                    <td>transportation</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>mon 12th jan</td>
+                    <td>income from group donation</td>
+                    <td>seed funds</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>transportation for pastors wifes</td>
+                    <td>thanksgiving</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>church project contributions</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>mon 12th jan</td>
+                    <td>general collect for this sunday service</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>mon 12th jan</td>
+                    <td>transportation to yengoa to withdraw money into our accounts</td>
+                    <td>transportation</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>income from group donation</td>
+                    <td>seed funds</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>transportation for pastors wifes</td>
+                    <td>thanksgiving</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>chruch project contributions</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>mon 12th jan</td>
+                    <td>general collect for this sunday service</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td> sat 12th jan</td>
+                    <td>transportation to yengoa to withdraw money into our accounts</td>
+                    <td>transportation</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td> sat 12th jan</td>
+                    <td>income from group donation</td>
+                    <td>seed funds</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>transportation for pastors wifes</td>
+                    <td>thanksgiving</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                    <td>10,000,000</td>
+                </tr>
+
+                <tr>
+                    <td>sat 12th jan</td>
+                    <td>chruch project contributions</td>
+                    <td>thanksgiving</td>
+                    <td>10,000,000</td>
+                    <td></td>
+                    <td>10,000,000</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="profit-container">
+            <div class="profit benefit">
+               <span>total income: #10,000,000</span>
+              <span>total expenditure: #10,000,000</span>
+            </div>
+            <div class="profit">
+                <h4>20% of income: <span> #10,000,000</span></h4>
+                <h4>balance: <span>#10,000,000 </span></h4>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ft-container">
+            <div class="signatory">
+                <div></div>
+                <p class="author">rev cannon victor kimieowei</p>
+                <span>(vicar)</span>
+            </div>
+            <div class="signatory">
+                <div></div>
+                <p class="author">mrs samson victor</p>
+                <span>(treasure)</span>
+            </div>
+        </div>
+            <div class="auditor">
+                <div></div>
+                <p class="author">mrs jane kimieowei</p>
+                <span>(fin. sec)</span>
+            </div>
+    </footer>
+</body>
+</html>
